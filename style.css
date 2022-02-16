@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+.main {
+  margin: 100px auto;
+  width: 250px;
+  height: 480px;
+  border-radius: 10px;
+}
+
+.main .product_image {
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+}
+
+.productcard {
+  width: 230px;
+  margin: 10px;
+}
+
+.productcard_top {
+  width: 230px;
+}
+
+.productcard_top h3 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #464646;
+  padding: 0 5px 5px 5px;
+}
+
+.price {
+  font-size: 17px;
+}
+
+.price .first_price {
+  display: inline-block;
+  color: #c0c0c0;
+  text-decoration: line-through;
+  padding-right: 4px;
+}
+.price .discount_rate {
+  display: inline-block;
+  color: #439e4a;
+  font-weight: bold;
+}
+
+.price .discount_arrow {
+  display: inline-block;
+  color: #439e4a;
+  font-weight: bold;
+}
+
+.price_bottom {
+  font-size: 20px;
+  color: #439e4a;
+  font-weight: bold;
+}
+
+.price_bottom .price_unit {
+  font-size: 16px;
+}
+
+.productcard_bottom {
+  height: 60px;
+  /* text-align: center; Js eklenecek */
+}
+.productcard_bottom a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 60px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.productcard_bottom_empty {
+  height: 40px;
+}
+.product_taste {
+  vertical-align: bottom;
+  height: 20px;
+}
+
+.product_taste i {
+  font-size: 13px;
+  color: #c0c0c0;
+}
+
+.main:hover {
+  background-color: white;
+  box-shadow: 2px 2px #c0c0c0;
+}
+
+.main:hover .product_image {
+  border: none;
+}
