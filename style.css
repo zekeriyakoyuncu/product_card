@@ -12,6 +12,7 @@ body {
   width: 250px;
   height: 480px;
   border-radius: 10px;
+  transition-duration: 0.3s;
 }
 
 .main .product_image {
